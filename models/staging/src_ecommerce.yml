@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: raw
+    database: ECOMMERCE_DB
+    schema: RAW
+    tables:
+      - name: OLIST_PAYMENTS_RAW
+      - name: OLIST_ORDERS_RAW

@@ -1,6 +1,6 @@
 with raw_source as (
-    -- This 'source' function links to the name we put in sources.yml
-    select * from {{ source('raw', 'olist_orders_raw') }}
+    -- Changed to UPPERCASE to match your YML exactly
+    select * from {{ source('raw', 'OLIST_ORDERS_RAW') }}
 )
 
 select
